@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-8dc6e30a9cb330b8948b.js"
+    "url": "webpack-runtime-ae58b1f5c8ad780e1e3c.js"
   },
   {
     "url": "styles.5db83db345a8746542bf.css"
@@ -42,11 +42,11 @@ self.__precacheManifest = [
     "url": "532a2f07-05d0124221769214927b.js"
   },
   {
-    "url": "app-fbe88aa5ef5551d8d291.js"
+    "url": "app-f965f1e2fd8e90ba6e68.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "8440955b3c605cecceb077ba5de972f1"
+    "revision": "d4f6e1787b3c39706c1c312f24c47a41"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-b3d32bc20641419cfed7.js"
@@ -57,7 +57,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "4f1ac160bbb3c059219b9d9dcaf01bc2"
+    "revision": "cbc3de228734764e7b13148e91352ddc"
   },
   {
     "url": "manifest.json",
@@ -65,7 +65,7 @@ self.__precacheManifest = [
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "4fbc60f81c6ff6db9658d8cfe65e9076"
+    "revision": "4a497df0c874d6f34834cad2de52b806"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
@@ -158,7 +158,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-fbe88aa5ef5551d8d291.js`))) {
+  if (!resources || !(await caches.match(`/app-f965f1e2fd8e90ba6e68.js`))) {
     return await fetch(event.request)
   }
 
