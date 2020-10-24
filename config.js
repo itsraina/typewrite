@@ -1,14 +1,14 @@
 'use strict';
 
 module.exports = {
-  url: 'https://typewrite.netlify.com',
+  url: 'https://badalraina31.github.io/typewrite/',
   pathPrefix: '/',
-  title: 'Blog by Badal Raina',
+  title: 'Typewrite',
   subtitle: 'About engineering and web stuff.',
   copyright: '© All rights reserved.',
   disqusShortname: '',
   postsPerPage: 4,
-  googleAnalyticsId: 'UA-162724105-2',
+  googleAnalyticsId: 'G-KFC593E1M8',
   useKatex: false,
   menu: [
     {
@@ -29,17 +29,17 @@ module.exports = {
     photo: '/photo.jpg',
     bio: '',
     contacts: {
-      email: 'malhaar6566@hotmail.com',
-      facebook: 'malhaar6566',
-      telegram: 'malhaar6566',
-      twitter: 'malhaar6566',
-      github: 'malhaar6566',
+      email: 'rainabadal@hotmail.com',
+      facebook: '',
+      telegram: 'badalraina',
+      twitter: 'badalraina31',
+      github: 'badalraina31',
       rss: '',
       vkontakte: '',
       linkedin: 'badalraina',
-      instagram: 'malha.ar',
+      instagram: 'raina.badal',
       line: '',
-      gitlab: '',
+      gitlab: 'badalraina',
       weibo: '',
       codepen: '',
       youtube: '',

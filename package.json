@@ -1,7 +1,7 @@
 {
-  "version": "3.0.3",
+  "version": "1.1.0",
   "name": "typewrite",
-  "description": "Personal Blogs by Badal Raina",
+  "description": "Personal Blogging website Designed & Built by Badal Raina",
   "main": "n/a",
   "scripts": {
     "develop": "npm run clean && gatsby develop",
@@ -16,8 +16,14 @@
     "test:coverage": "jest --coverage --config ./jest/jest-config.js",
     "test:watch": "jest --watch --config ./jest/jest-config.js"
   },
-  "repository": "https://github.com/malhaar6566/typewrite-blog.git",
-  "author": "Badal Raina",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/badalraina31/typewrite.git"
+  },
+  "author": {
+    "name":"Badal Raina",
+    "email": "rainabadal@hotmail.com"
+  },
   "license": "MIT",
   "keywords": [
     "gatsby",
