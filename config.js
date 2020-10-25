@@ -6,7 +6,7 @@ module.exports = {
   title: 'Typewrite',
   subtitle: 'About engineering and web stuff.',
   copyright: '© All rights reserved.',
-  disqusShortname: '',
+  disqusShortname: 'badal_raina',
   postsPerPage: 4,
   googleAnalyticsId: 'G-KFC593E1M8',
   useKatex: false,
@@ -30,20 +30,20 @@ module.exports = {
     bio: '',
     contacts: {
       email: 'rainabadal@hotmail.com',
-      facebook: '',
+      facebook: 'badalRaina31',
       telegram: 'badalraina',
       twitter: 'badalraina31',
       github: 'badalraina31',
       rss: '',
-      vkontakte: '',
+      vkontakte: 'id620634720',
       linkedin: 'badalraina',
       instagram: 'raina.badal',
       line: '',
       gitlab: 'badalraina',
       weibo: '',
-      codepen: '',
+      codepen: 'badalraina31',
       youtube: '',
-      soundcloud: '',
+      spotify: 'z0480ixro4v5ljfx6kpqw5jcz?si=AVHembyPTHScesdDII_MRQ',
     }
   }
 };

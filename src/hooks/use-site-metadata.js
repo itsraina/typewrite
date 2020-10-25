@@ -26,7 +26,7 @@ const useSiteMetadata = () => {
                 weibo
                 codepen
                 youtube
-                soundcloud
+                spotify
               }
             }
             menu {
